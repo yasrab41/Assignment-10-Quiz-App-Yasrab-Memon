@@ -43,7 +43,7 @@ function submitform(e) {
 
       //store player name
       sessionStorage.setItem('name', name);
-      location.href = 'index.html';
+      location.href = 'Quiz_start.html';
       //console.log(name);
 
 }
