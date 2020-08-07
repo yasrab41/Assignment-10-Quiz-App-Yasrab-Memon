@@ -43,7 +43,7 @@ function submitform(e) {
 
       //store player name
       sessionStorage.setItem('name', name);
-      location.href = 'files/Quiz_start.html';
+      location.href = 'Quiz_start.html';
       //console.log(name);
 
 }
@@ -65,7 +65,7 @@ function nextQuestion() {
       console.log(quiz_points);
 
       if (count_question == questions.length - 1) {
-            location.href = "files/final_results.html";
+            location.href = "final_results.html";
             return;
           }
        console.log(count_question);
